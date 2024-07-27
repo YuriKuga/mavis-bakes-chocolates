@@ -10,18 +10,21 @@
   *{
     margin: 0;  
     padding: 0;
+    /* border: 1px solid red; */
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
   /********************************HEADER*****************************************************/
-header{    
-    background-color: #465151 !important;
-    text-align: center; 
-}
-
-.navbar{
+header{
     display: flex;
     justify-content: center;
+    background-color: #465151 !important;
+
+}
+
+.navbar-first{
+    background-color: #465151 !important;
+    text-align: center; 
 }
 
 .ul-navbar{
@@ -29,8 +32,8 @@ header{
     align-items: center;
 }
 
-.viñetas-navbar{        
-    display: inline;
+.viñetas-navbar{    
+    display: flex;
     margin-inline: 18px;    
 }
 
@@ -68,7 +71,15 @@ header{
 .logo-img{
     width: 120px;
     height: 120px;
+
 }
+
+.navbar .nav-item a:hover{
+    color: #E2CBAF;
+    border-bottom: 2px solid #E2CBAF;
+
+}
+
 
 /********************************MAIN HOME *****************************************************/
 /*                   primera seccion                    */
@@ -77,8 +88,9 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50rem; 
+    height: 50rem;
 }
+
 
 .primera-seccion-container-index{    
     align-content: center;
@@ -87,11 +99,12 @@ header{
     height: 100%;
 }
 
-.primera-seccion-texto-index{    
+.primera-seccion-texto-index{
     font-family: "Playwrite TZ", cursive;
     color: #F8F1F1;
     font-size: 50px ;
     font-weight: 300;
+    
 }
 
 .primera-seccion-button-index{
@@ -104,6 +117,14 @@ header{
     border-width: 3.5px;
     color:#F8F1F1;
     background-color: transparent;
+    margin-top: 20px;
+    
+}
+
+.button-index{
+    font-family: "Poppins", sans-serif;
+    color:#F8F1F1 ;
+    text-decoration: none;
 }
 
 /*                   segunda seccion                    */
@@ -193,6 +214,7 @@ header{
 }
 
 .container1-tercera-seccion-index, .container2-tercera-seccion-index, .container3-tercera-seccion-index, .container4-tercera-seccion-index{
+    display: flex;
     margin: 25px;
 }
 
@@ -229,13 +251,23 @@ header{
 }   
 
 .button-contenido-cuarta-seccion-index{
+    font-family: "Poppins", sans-serif;
     font-size: 25px;
-    border-radius: 50px;
-    padding: 25px;
+    border-radius: 50px;    
+    padding: 1.25rem;
+    padding-inline: 1 rem;
     border-color: #F8F1F1;
-    color: #F8F1F1;
+    border-width: 3.5px;
+    color:#F8F1F1;
     background-color: transparent;
-    margin: 25px;
+    margin-top: 30px;
+}
+
+.button2-index{
+    font-family: "Poppins", sans-serif;
+    color: #F8F1F1 ;
+    text-decoration: none;
+    
 }
 
 /********************************MAIN SHOP *****************************************************/
