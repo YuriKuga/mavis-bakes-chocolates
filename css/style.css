@@ -216,11 +216,13 @@ header{
 .container1-tercera-seccion-index, .container2-tercera-seccion-index, .container3-tercera-seccion-index, .container4-tercera-seccion-index{
     display: flex;
     margin: 25px;
+    background-color: transparent;
+    border:none;
 }
 
 .img1-tercera-seccion-index, .img2-tercera-seccion-index, .img3-tercera-seccion-index, .img4-tercera-seccion-index{
-    width: 350px;
-    height: 310px;
+    width: 300px;
+    height: 250px;
 }
 
 .text1-tercera-seccion-index, .text2-tercera-seccion-index, .text3-tercera-seccion-index, .text4-tercera-seccion-index{
@@ -654,21 +656,17 @@ footer{
     justify-content: center;
 }
 
-.contenido-footer{
-    display: flex;
-    justify-content: center;    
-}
-
 .copy-footer{
     display: flex;
     justify-content: center;
 }
 
 .texto-copy-footer{
+    display: flex;
     color: #F8F1F1;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 30px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .information-footer, .followUs-footer, .contactUs-footer{
@@ -704,11 +702,11 @@ footer{
 
 .texto-ul3{
     color: #F8F1F1;
-    font-size: 20px;
-    margin-left: 15px;
-    margin-bottom: 25px;
+    margin-left: 12px;
+    margin-top: 10px;
 }
 
 .viñetas-contactUs-footer{
     display: flex;
-}
+    justify-items: center;
+} 
