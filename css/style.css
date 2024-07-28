@@ -160,6 +160,7 @@ header{
     font-size: 30px;
     text-align: center;
     align-content: center;
+    margin: 30px;
     
 }
 
@@ -189,6 +190,8 @@ header{
     font-size: 30px;
     text-align: center;
     align-content: center;
+    margin: 30px;
+    
 }
 
 /*                   tercera seccion                    */
@@ -272,93 +275,6 @@ header{
     
 }
 
-@media (max-width: 768px) {
-    .primera-seccion-index {
-        height: 550px;
-        padding: 20px;
-
-    }
-
-    .primera-seccion-container-index h1 {
-        font-size: 50px;
-    }
-    .segunda-seccion-index h2{
-        font-size: 50px;
-    }
-
-    .fila-tercera-seccion-index {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .cuarta-seccion-index {
-        background-size: cover;
-        background-position: center;
-        padding: 40px 20px;
-    }
-
-    .contenido-cuarta-seccion-index p {
-        font-size: 1.2em;
-    }
-
-    .contenido-cuarta-seccion-index button {
-        font-size: 1em;
-        padding: 10px 20px;
-    }
-}
-
-
-
-
-@media (max-width: 480px) {
-    .primera-seccion-container-index h1 {
-        font-size: 45px;
-    }
-
-    .segunda-seccion-index{
-        display: block;
-        height: auto;
-        grid-template-rows: auto;
-        grid-row: 120px;
-
-    }
-
-    .segunda-seccion-index h2{
-        font-size: 40px;
-    
-    }
-    
-    .segunda-seccion-index .parrafo1-contenido1-segunda-seccion-index, .parrafo2-contenido1-segunda-seccion-index{
-        font-size: 15px;
-        margin-left: 15px;
-    }
-    .tercera-seccion-index h2{
-        font-size: 40px;
-    }
-    .tercera-seccion-index img{
-        width: 150px;
-        height: 100px;
-        margin-left: 60px; 
-        object-fit: contain;
-    }
-    .tercera-seccion-index p{
-        font-size: 15px;
-    }
-
-    .contenido-cuarta-seccion-index p {
-        font-size: 35px;
-    }
-
-    .contenido-cuarta-seccion-index button {
-        font-size: 0.9em;
-        padding: 8px 16px;
-        }
-}
 
 /********************************MAIN SHOP *****************************************************/
 .primera-seccion-shop{
@@ -738,6 +654,97 @@ header{
     background-color: #E2CBAF;
 }
 
+@media (max-width: 768px) {
+    .primera-seccion-index {
+        height: 550px;
+        padding: 20px;
+
+    }
+
+    .primera-seccion-container-index h1 {
+        font-size: 50px;
+    }
+    .segunda-seccion-index h2{
+        font-size: 50px;
+    }
+
+    .fila-tercera-seccion-index {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cuarta-seccion-index {
+        background-size: cover;
+        background-position: center;
+        padding: 40px 20px;
+    }
+
+    .contenido-cuarta-seccion-index p {
+        font-size: 1.2em;
+    }
+
+    .contenido-cuarta-seccion-index button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .titulo-segunda-seccion-contact {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+    .primera-seccion-container-index h1 {
+        font-size: 45px;
+    }
+
+    .segunda-seccion-index{
+        display: block;
+        height: auto;
+        grid-template-rows: auto;
+        grid-row: 120px;
+
+    }
+
+    .segunda-seccion-index h2{
+        font-size: 40px;
+    
+    }
+    
+    .segunda-seccion-index .parrafo1-contenido1-segunda-seccion-index, .parrafo2-contenido1-segunda-seccion-index{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .tercera-seccion-index h2{
+        font-size: 40px;
+    }
+    .tercera-seccion-index img{
+        width: 150px;
+        height: 100px;
+        margin-left: 60px; 
+        object-fit: contain;
+    }
+    .tercera-seccion-index p{
+        font-size: 15px;
+    }
+
+    .contenido-cuarta-seccion-index p {
+        font-size: 35px;
+    }
+
+    .contenido-cuarta-seccion-index button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+        }
+}
 
 /********************************FOOTER*****************************************************/
 footer{    
