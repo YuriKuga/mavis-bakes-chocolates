@@ -329,12 +329,13 @@ header{
 
 .producto-segunda-seccion-shop{
     margin-inline: 80px;
+    border: none;
 }
 
 .img-producto-segunda-seccion-shop{
     width: 300px;
     height: 300px;
-}
+} 
 
 .texto-producto-segunda-seccion-shop{
     color: #2E3232;
@@ -510,7 +511,7 @@ header{
 .titulo-seccion-blog{    
     font-family: "Playwrite TZ", cursive;
     color: #E2CBAF;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 300;
     text-align: center;
     padding: 30px;
@@ -538,18 +539,23 @@ header{
     font-family: "Poppins", sans-serif;
     width: fit-content;
     color: #F8F1F1;
+    font-size: 25px;
     font-weight: 300;
+    margin-top: 20px;
 }
 
 .descripcion2-primera-seccion-blog{
     font-family: "Poppins", sans-serif;
     width: fit-content;
     color: #F8F1F1;
+    font-size: 25px;
     font-weight: 300;
+    margin-top: 20px;
 }
 
 .fecha-primera-seccion-blog{
     color: #F8F1F1;
+    font-size: 12px;
     font-weight: 300;
 }
 
@@ -794,15 +800,14 @@ footer{
             object-fit: contain;
             margin-left: 60px;
             }
-       
         }
 
 
 @media (min-width: 600px) and (max-width: 768px) {
+
     .primera-seccion-index {
         height: 550px;
         padding: 20px;
-
     }
 
     .primera-seccion-container-index h1 {
@@ -823,7 +828,7 @@ footer{
         object-fit: contain;
         margin-left: 60px;
         }
-        
+
     .card {
         width: 100%;
         margin-bottom: 20px;
@@ -842,6 +847,16 @@ footer{
     .contenido-cuarta-seccion-index button {
         font-size: 1em;
         padding: 10px 20px;
+    }
+
+    .img-producto-segunda-seccion-shop{
+        width: 200px;
+        height: 200px;
+    } 
+
+    .img1-tercera-seccion-shop, .img2-tercera-seccion-shop, .img3-tercera-seccion-shop{
+        width: 250px;
+        height: 250px;
     }
 
     .primera-seccion-contact{
