@@ -79,28 +79,38 @@
                 </div>
             </div>
         </section>
-        <section class="segunda-seccion-contact">
-            <h1 class="titulo-segunda-seccion-contact">Join Us</h1>
-            <div class="fila-segunda-seccion-contact">
-                <div class="inputs-container-contact">
-                    <input type="text" placeholder="Your Name" class="input-contact">
-                </div>
-                <div class="inputs-container-contact">
-                    <input type="text" placeholder="Your Surname" class="input-contact">
-                </div>
+    <form class="row g-3 needs-validation segunda-seccion-contact" novalidate>
+        <h1 class="titulo-segunda-seccion-contact">Join Us</h1>
+        <div class="col-md-4 inputs-container-contact">
+          <input type="text"  class="form-control input-contact" id="validationCustom01" value="First Name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 inputs-container-contact">
+          <input type="text" class="form-control input-contact" id="validationCustom02" value="Last Name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 inputs-container-contact">
+          <div class="input-group has-validation">
+            <input type="text" class="form-control input-contact" id="validationCustomUsername" value="Phone Number" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
             </div>
-            <div class="fila-segunda-seccion-contact">
-                <div class="inputs-container-contact">
-                    <input type="number" placeholder="Phone" class="input-contact">
-                </div>
-                <div class="inputs-container-contact">
-                    <input type="email" placeholder="E-mail" class="input-contact">
-                </div>                
-            </div>
-            <div class="fila-segunda-seccion-contact">
-                <button class="boton-formulario-contact">SEND</button>
-            </div>
-        </section>
+          </div>
+        </div>
+        <div class="col-md-6 inputs-container-contact">
+          <input type="text" class="form-control input-contact" value="Email" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid email.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary boton-formulario-contact" type="submit">Submit</button>
+        </div>
+      </form>
     </main>
     <footer class="bg-dark text-white py-4" style="background-image: url(../assets/img/footer.jpeg);">
         <div class="container">
@@ -144,12 +154,6 @@
                             <path d="M5.275 10.4323C7.075 13.9706 9.975 16.8586 13.5125 18.6715L16.2625 15.921C16.6 15.5834 17.1 15.4709 17.5375 15.6209C18.9375 16.0835 20.45 16.3335 22 16.3335C22.6875 16.3335 23.25 16.8962 23.25 17.5838V21.9472C23.25 22.6348 22.6875 23.1974 22 23.1974C10.2625 23.1974 0.75 13.683 0.75 1.94312C0.75 1.25549 1.3125 0.692871 2 0.692871H6.375C7.0625 0.692871 7.625 1.25549 7.625 1.94312C7.625 3.50594 7.875 5.00625 8.3375 6.40653C8.475 6.84412 8.375 7.33172 8.025 7.68179L5.275 10.4323Z" fill="#E2CBAF"/>
                         </svg>
                             <p class="ml-2 texto-ul3">+1 304-668-1895</p>
-                        </li>
-                        <li class="d-flex align-items-center viñetas-contactUs-footer">
-                            <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24 5.0595V15.75C24 16.7446 23.6049 17.6984 22.9016 18.4016C22.1984 19.1049 21.2446 19.5 20.25 19.5H3.75C2.75544 19.5 1.80161 19.1049 1.09835 18.4016C0.395088 17.6984 0 16.7446 0 15.75V5.0595L11.619 11.8965C11.7344 11.9646 11.866 12.0005 12 12.0005C12.134 12.0005 12.2656 11.9646 12.381 11.8965L24 5.0595ZM20.25 4.6429e-08C21.1727 -0.000145074 22.0631 0.33991 22.7508 0.95511C23.4385 1.57031 23.8753 2.41746 23.9775 3.3345L12 10.38L0.0225002 3.3345C0.124737 2.41746 0.561486 1.57031 1.24919 0.95511C1.9369 0.33991 2.82728 -0.000145074 3.75 4.6429e-08H20.25Z" fill="#E2CBAF"/>
-                            </svg>  
-                            <p class="ml-2 texto-ul3">mavisbakeschocolates@gmail.com</p>
                         </li>
                     </ul>
                 </section>
