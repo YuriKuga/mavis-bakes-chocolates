@@ -1,0 +1,76 @@
+.button-index{
+    font-family: "Poppins", sans-serif;
+    color:$colorLetras ;
+    text-decoration: none;
+}
+
+.button-contenido-cuarta-seccion-index{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    border-radius: 50px;    
+    padding: 1.25rem;
+    padding-inline: 1 rem;
+    border-color: $colorLetras;
+    border-width: 3.5px;
+    color:$colorLetras;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.button2-index{
+    font-family: "Poppins", sans-serif;
+    color: $colorLetras ;
+    text-decoration: none;
+    
+}
+
+.boton-fila2-segunda-seccion-shop{
+    font-size: 15px;
+    border-color: $colorsecundario;
+    color: $colortitulo;
+    background-color: $colorsecundario;
+    border-radius: 90px;
+    margin-inline: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.boton2-fila2-segunda-seccion-shop{
+    font-size: 15px;
+    border-color: $colorsecundario;
+    background-color: transparent;
+    border-radius: 90px;
+    margin-inline: 15px;
+    padding: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+
+
+.boton-formulario-contact{
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 50px;
+    padding-inline: 50px;
+    border: none;
+    background-color: $colortitulo;
+    &:hover{
+        color: $colorLetras;
+        background-color: $colorsecundario;
+        border-bottom: 2px solid $colorsecundario;
+
+    }
+}
+
+.boton-formulario-shop{
+    @extend .boton-formulario-contact;
+    font-size: 18px;
+    margin: 30px 30px;
+    background-color: $colorsecundario;
+    &:hover{
+        background-color: $colortitulo;
+    }
+    
+}

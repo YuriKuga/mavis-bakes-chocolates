@@ -1,0 +1,88 @@
+.main-contact{
+    color:$colorLetras;    
+    display: inline;
+}
+
+/*                   primera seccion                    */
+.primera-seccion-contact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fondo-primera-seccion-contact{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1300px;
+    height: 730px;
+    margin-top: 120px;
+}
+
+.tarjeta-primera-seccion-contact{    
+    background-color: $colortitulo;
+    position: relative;
+    width: 511px;
+    height: 480px;
+    margin-top: 125px;
+    margin-left: 50px;
+    padding: 35px;
+}
+
+.contenido-tarjeta-contact{
+    width: 441px;
+    height: 410px;
+    border: 2px solid $colorsecundario;
+}
+
+.titulo-tarjeta-contact{
+    font-family: "Playwrite TZ", cursive;
+    text-align: center;
+    color: $colorsecundario;
+    font-size: 28px;
+    margin: 21px;
+    font-weight: 400;
+}
+
+.texto-tarjeta-contact{
+    color: $colorsecundario;
+    font-size: 18px;
+    font-weight: 450;
+    margin: 20px;
+
+}
+
+/*                   segunda seccion                    */
+.segunda-seccion-contact{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin: 60px;
+}
+
+.titulo-segunda-seccion-contact{
+    margin: 35px;
+    font-family: "Playwrite TZ", cursive;
+    font-size: 30px;
+    color: $colorsecundario;
+    font-weight: 300;
+}
+
+/* .fila-segunda-seccion-contact{
+    display: flex;
+    justify-content: center;
+} */
+
+.inputs-container-contact{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.input-contact{
+    font-size: 20px;
+    border: none;
+    border-bottom: $colortitulo solid;
+    padding: 10px;
+}
+

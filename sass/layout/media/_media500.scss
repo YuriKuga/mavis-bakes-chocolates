@@ -1,0 +1,96 @@
+@media (min-width:500px) and (max-width: 599.99px) {
+    
+    .segunda-seccion-index h2{
+        font-size: 40px;
+    }
+    .segunda-seccion-index .parrafo1-contenido1-segunda-seccion-index, .parrafo2-contenido1-segunda-seccion-index{
+        font-size: 15px;
+        margin-left: 15px;}
+
+    .tercera-seccion-index h2{
+            font-size: 30px;
+    }
+
+    .fila-tercera-seccion-index {
+        flex-direction: column;
+        align-items: center;}
+
+    .tercera-seccion-index img{
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+        margin-left: 60px;
+    }
+    
+    .navbar-brand img {
+        width: 100px;
+    }
+            
+    .navbar-toggler {
+        margin: auto;
+    }
+        
+    .navbar-nav {
+        text-align: center;
+    }
+        
+    .primera-seccion-shop h1 {
+        font-size: 24px; 
+    }
+        
+    .opciones-fila1-primera-seccion-shop {
+        font-size: 14px; 
+    }
+        
+    .producto-segunda-seccion-shop {
+        margin: 10px auto;
+        width: 100%;
+    }
+        
+    .img-producto-segunda-seccion-shop {
+        width: 100%;
+        height: auto;
+    }
+        
+    .fila2-segunda-seccion-shop {
+        flex-direction: column;
+    }
+        
+    .boton-fila2-segunda-seccion-shop, .boton2-fila2-segunda-seccion-shop {
+        margin: 5px 0;
+        width: 100%;
+    }
+        
+    .previus-fila2-segunda-seccion-shop, .next-fila2-segunda-seccion-shop {
+        display: none;                
+    }
+
+    .img1-tercera-seccion-shop, .img2-tercera-seccion-shop, .img3-tercera-seccion-shop{
+        width:100px;
+        height: 100px;
+        object-fit: contain;
+    }
+        
+    .img1-primera-seccion-about, .img2-primera-seccion-about{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+
+    .objetos-separador-about{
+        width: 150px;
+    }
+
+    .img4-segunda-seccion-about{
+        width: 200px;
+        height: 200px;
+    }
+
+    .imgs-primera-seccion-blog{
+        width: 150px;
+        height: 150px;
+    }
+    .descripcion-primera-seccion-blog, .descripcion2-primera-seccion-blog{
+        font-size: 15px;
+    }
+}

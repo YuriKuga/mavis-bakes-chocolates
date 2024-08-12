@@ -1,0 +1,90 @@
+.main-about{
+    background-color: $colorsecundario;
+}
+
+/*                   primera seccion                    */
+.fila1-primera-seccion-about{
+    padding: 80px;
+    text-align: center;    
+}
+
+.titulo-fila1-primera-seccion-about{
+    font-family: "Playwrite TZ", cursive;
+    color: $colortitulo;
+    font-size: 50px;
+    font-weight: 300;    
+}
+
+.descripcion-fila1-primera-seccion-about{
+    font-family: "Poppins", sans-serif;
+    color: $colorLetras;
+    font-size: 29px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.fila2-primera-seccion-about, .fila3-primera-seccion-about{
+    display: flex;
+}
+
+.img1-primera-seccion-about, .img2-primera-seccion-about{
+    width: 700px;
+    height: 490px;
+}
+
+.texto-fila2-primera-seccion-about, .texto-fila3-primera-seccion-about{    
+    align-content: center;
+    text-align: center;
+    color: $colorLetras;
+    font-size: 29px;
+    margin:30px 30px 30px 30px;
+}
+
+/*                   separador                    */
+.separador-about{
+    text-align: center;
+    padding: 85px;
+}
+
+.objetos-separador-about{
+    margin-inline: 15px;
+}
+
+/*                   segunda seccion                    */
+.titulo-segunda-seccion-about{
+    font-family: "Playwrite TZ", cursive; 
+    color: $colortitulo;
+    font-weight: 300;
+    font-size: 45px;
+    text-align: center;    
+    padding: 45px;
+}
+
+.fila1-segunda-seccion-about{
+    padding: 45px;
+    display: flex;    
+    text-align: center;
+    align-items: center;
+}
+
+.img4-segunda-seccion-about{
+    width: 650px;
+}
+
+.texto1-segunda-seccion-about{
+    font-family: "Poppins", sans-serif;
+    color: $colorLetras;
+    font-size: 29px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.texto2-segunda-seccion-about{
+    color:  $colortitulo;
+    font-family: "Playwrite TZ", cursive;
+    font-size: 35px;
+    font-weight: 300;
+}

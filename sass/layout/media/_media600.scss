@@ -1,0 +1,113 @@
+@media (min-width: 600px) and (max-width: 768px) {
+
+    .primera-seccion-index {
+        height: 550px;
+        padding: 20px;
+    }
+
+    .primera-seccion-container-index h1 {
+        font-size: 50px;
+    }
+    .segunda-seccion-index h2{
+        font-size: 50px;
+    }
+
+    .fila-tercera-seccion-index {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tercera-seccion-index img{
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+        margin-left: 60px;
+        }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cuarta-seccion-index {
+        background-size: cover;
+        background-position: center;
+        padding: 40px 20px;
+    }
+
+    .contenido-cuarta-seccion-index p {
+        font-size: 1.2em;
+    }
+
+    .contenido-cuarta-seccion-index button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .img-producto-segunda-seccion-shop{
+        width: 200px;
+        height: 200px;
+    } 
+
+    .img1-tercera-seccion-shop, .img2-tercera-seccion-shop, .img3-tercera-seccion-shop{
+        width: 250px;
+        height: 250px;
+    }
+
+    .titulo-fila1-primera-seccion-about, .titulo-segunda-seccion-about{
+        font-size: 30px ;
+    }
+
+    .descripcion-fila1-primera-seccion-about,.texto-fila2-primera-seccion-about, .texto-fila3-primera-seccion-about, .texto1-segunda-seccion-about{
+        font-size: 18px;
+
+    }
+
+    .img1-primera-seccion-about, .img2-primera-seccion-about{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+
+    .objetos-separador-about{
+        width: 150px;
+    }
+
+    .img4-segunda-seccion-about{
+        width: 200px;
+        height: 200px;
+    }
+
+    
+    .imgs-primera-seccion-blog{
+        width: 250px;
+        height: 250px;
+    }
+    .descripcion-primera-seccion-blog, .descripcion2-primera-seccion-blog{
+        font-size: 15px;
+    }
+
+
+    .primera-seccion-contact{
+        width: auto;
+        height:auto;
+        margin-top: 120px;
+}
+    
+    .fondo-primera-seccion-contact {
+        height: 900px;
+    }
+
+    .tarjeta-primera-seccion-contact {
+        width: 70%;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .footer .col-md-4 {
+        flex: 1 1 33.333%;
+        max-width: 33.333%;
+    }
+
+
+}

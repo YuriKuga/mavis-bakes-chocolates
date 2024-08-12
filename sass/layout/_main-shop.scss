@@ -1,0 +1,108 @@
+.primera-seccion-shop{
+    display: contents;    
+}
+
+.fila1-primera-seccion-shop{    
+    background-color: $colorsecundario;
+    width: 100%;
+    height: 250px;
+    align-content: center;
+    text-align: center;
+}
+
+.titulo-fila1-primera-seccion-shop{
+    font-family: "Playwrite TZ", cursive;
+    color: $colortitulo;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 25px;
+}
+
+.opciones-fila1-primera-seccion1-shop{
+    font-family: "Poppins", sans-serif;
+    color: $colortitulo;
+    text-decoration: none;
+    font-size: 32px;
+    margin-inline: 35px; 
+}
+
+.opciones-fila1-primera-seccion-shop{
+    font-family: "Poppins", sans-serif;
+    color: $colorLetras;
+    font-size: 32px;
+    text-decoration: none;
+    margin-inline: 35px;
+}
+
+/*                   segunda seccion                    */
+.segunda-seccion-shop{
+    color: $colorLetras;
+    display: contents;
+    text-align: center;
+}
+
+.fila-segunda-seccion-shop{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 25px;
+}
+
+.producto-segunda-seccion-shop{
+    margin-inline: 80px;
+    border: none;
+}
+
+.img-producto-segunda-seccion-shop{
+    width: 300px;
+    height: 300px;
+} 
+
+.texto-producto-segunda-seccion-shop{
+    color: $colorsecundario;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.flechas-fila-segunda-seccion-shop{
+    text-decoration: none;
+}
+
+.fila2-segunda-seccion-shop{
+    margin: 80px;
+}
+
+.previus-fila2-segunda-seccion-shop, .next-fila2-segunda-seccion-shop{
+    font-size: 25px;
+    text-decoration: none;
+    color: $colorsecundario;
+    margin-inline: 15px;
+}
+
+
+/*                   tercera seccion                    */
+.titulo-tercera-seccion-shop{    
+    padding: 30px;
+    width: 100%;
+    background-color: $colorsecundario;
+    text-align: center;
+}
+
+.texto-titulo-tercera-seccion-shop{
+    font-family: "Playwrite TZ", cursive;
+    color: $colortitulo;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.fotos-tercera-seccion-shop{
+    display: flex;    
+    justify-content: center;
+    margin: 80px;
+}
+
+.img1-tercera-seccion-shop, .img2-tercera-seccion-shop, .img3-tercera-seccion-shop{
+    width: 550px;
+    height: 550px;
+}

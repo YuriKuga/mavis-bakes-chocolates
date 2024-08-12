@@ -1,0 +1,63 @@
+.main-blog{
+    background-color: $colorsecundario;
+}
+    
+.primera-seccion-blog{
+    display: inline;
+}
+
+.titulo-seccion-blog{    
+    font-family: "Playwrite TZ", cursive;
+    color: $colortitulo;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    padding: 30px;
+}
+
+.fila-primera-seccion-blog{
+    display: flex;
+    text-align: left;
+    justify-content: center;   
+    padding-bottom: 25px;
+}
+
+.articulos-primera-seccion-blog{
+    width: 350px;
+    height: fit-content;
+    margin: 50px;
+}
+
+.imgs-primera-seccion-blog{  
+    width: 350px;
+    height: 310px;
+}
+
+.descripcion-primera-seccion-blog{
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    color: $colorLetras;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.descripcion2-primera-seccion-blog{
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    color: $colorLetras;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.fecha-primera-seccion-blog{
+    color: $colorLetras;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.read-primera-seccion-blog{
+    text-decoration: none;
+    color: $colortitulo;
+}
