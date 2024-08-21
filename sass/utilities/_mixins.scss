@@ -1,0 +1,21 @@
+@mixin gridArea($wid,$hght,$cGap,$area) {
+    display: grid;
+    width: $wid ;
+    height: $hght ;
+    column-gap: $cGap;
+    grid-template-areas:$area ;
+}
+
+@mixin gridParrafo ($gcol,$grow, $font,$mar){
+    grid-column: $gcol;
+    grid-row: $grow;
+    font-size: $font;
+    margin: $mar;
+}
+
+@mixin gridImg($gcol,$grow,$pad){
+    grid-column:$gcol;
+    grid-row:$grow;
+    padding:$pad;
+}
+
