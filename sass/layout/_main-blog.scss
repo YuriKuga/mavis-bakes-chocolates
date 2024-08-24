@@ -9,7 +9,7 @@
 .titulo-seccion-blog{    
     font-family: "Playwrite TZ", cursive;
     color: $colortitulo;
-    font-size: 50px;
+    font-size: map-get($map: $font-tam, $key:md);
     font-weight: 300;
     text-align: center;
     padding: 30px;
@@ -37,7 +37,7 @@
     font-family: "Poppins", sans-serif;
     width: fit-content;
     color: $colorLetras;
-    font-size: 25px;
+    font-size: map-get($map: $font-tam, $key:sm );
     font-weight: 300;
     margin-top: 20px;
 }
